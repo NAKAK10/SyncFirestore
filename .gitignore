@@ -1,0 +1,5 @@
+getFirestore/**.json
+setFirestore/**.json
+**/*.pyc
+backupDate
+**/__pycache__
