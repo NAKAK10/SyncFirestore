@@ -13,11 +13,12 @@ if is_have_id is False, funGetFirestore return list
 """
 is_have_id = True
 
-backupCollection = ['AAAA']
+backupCollection = ['CMC_InquiryQuestion']
 
 for collentionName in backupCollection:
     getCollettion = funGetFirestore(collentionName, is_have_id)
-    fileName = 'backupDate/' + funDateFormat(datetime.datetime.now(), 'YYYY年MM月DD日/') + collentionName + '.json'
+    fileName = 'backupDate/' + \
+        funDateFormat(datetime.datetime.now(), 'YYYY年MM月DD日/') + collentionName + '.json'
     print(fileName)
     funWriteFile(getCollettion, fileName)
 

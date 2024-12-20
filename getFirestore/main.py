@@ -2,7 +2,8 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
 
-cred = credentials.Certificate("./getFirestore/getConfig.json")
+# cred = credentials.Certificate("./getFirestore/getConfig.json")
+cred = credentials.Certificate("./getFirestore/AAA.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()  # firestore接続
 
