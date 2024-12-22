@@ -3,3 +3,4 @@ setFirestore/**.json
 **/*.pyc
 backupDate
 **/__pycache__
+test.py
