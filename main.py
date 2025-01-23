@@ -2,7 +2,7 @@ from setFirestore.main import funSetFirestore
 from getFirestore.main import funGetFirestore
 
 
-collectionsName = ['Message']
+collectionsName = ['/master/housingInfoField/data/1wSk1LEbUI44BqxZ4Vv2']
 
 
 for collentionName in collectionsName:
