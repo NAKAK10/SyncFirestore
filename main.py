@@ -2,7 +2,7 @@ from setFirestore.main import funSetFirestore
 from getFirestore.main import funGetFirestore
 
 
-collectionsName = ['/master/housingInfoField/data/1wSk1LEbUI44BqxZ4Vv2']
+collectionsName = ['/ssss']
 
 
 for collentionName in collectionsName:

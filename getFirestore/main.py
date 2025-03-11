@@ -35,7 +35,7 @@ def funGetFirestore(collection, is_have_id=False) -> list[dict]:
                 d[doc.id] = doc.to_dict()
             else:
                 d.append(doc.to_dict())
-    if collectionRef is not None:
+    elif collectionRef is not None:
         doc = collectionRef.get()
         if is_have_id:
             d[doc.id] = doc.to_dict()
